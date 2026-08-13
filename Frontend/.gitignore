@@ -1,0 +1,42 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# Production build outputs
+dist/
+build/
+
+# Testing framework coverage
+coverage/
+
+# Vite, Next.js, and compiler caches
+.cache/
+.vite/
+.next/
+.parcel-cache
+
+# JavaScript/TypeScript build logs
+*.tsbuildinfo
+
+# Ignore all environment files (Vite/CRA use these)
+.env*
