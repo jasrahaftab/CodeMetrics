@@ -22,3 +22,24 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+<<<<<<< HEAD
+=======
+# Production build outputs
+dist/
+build/
+
+# Testing framework coverage
+coverage/
+
+# Vite, Next.js, and compiler caches
+.cache/
+.vite/
+.next/
+.parcel-cache
+
+# JavaScript/TypeScript build logs
+*.tsbuildinfo
+
+# Ignore all environment files (Vite/CRA use these)
+.env*
+>>>>>>> cdf1fa6522335b03ada9f6bb50ee95a14f1ad721
