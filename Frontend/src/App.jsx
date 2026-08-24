@@ -1,12 +1,6 @@
-import './App.css'
+import React from 'react';
+import Heropage from './pages/Heropage';
 
-function App() {
-  return (
-    <div>
-      <h1>CodeMetrics</h1>
-    </div>
-  )
+export default function App() {
+  return <Heropage />;
 }
-
-export default App
-

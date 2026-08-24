@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=JetBrains+Mono:wght@400;700&display=swap');
+
+:root {
+  --bg-dark: #0a0d08;
+  --bg-card: #11141a;
+  --accent-yellow: #ffe600;
+  --accent-green: #10b981;
+  --accent-cyan: #06b6d4;
+  --accent-red: #ef4444;
+  --text-primary: #ffffff;
+  --text-secondary: #9ca3af;
+  --text-muted: #6b7280;
+  --font-main: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+* {
+  margin: 3px;
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0b0e07;
+  color: var(--text-primary);
+  font-family: var(--font-main);
+  min-height: 100vh;
+  line-height: 1.5;
+
+  /* Vibrant yellow halo + distinct white grid */
+  background-image:
+    radial-gradient(ellipse 90% 60% at 50% -10%, rgba(255, 230, 0, 0.25), transparent 75%),
+    linear-gradient(rgba(255, 255, 255, 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.12) 1px, transparent 1px);
+
+  background-size: 100% 100%, 50px 50px, 50px 50px;
+  background-position: 0 0, 0 0, 0 0;
+}
