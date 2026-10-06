@@ -36,6 +36,6 @@ app.use(cookieParser());
 //What it does: Parses the incoming cookies and attaches them to the request object as req.cookies.So if the frontend sends a cookie named "token", you can access it at req.cookies.token.
 
 //import routes here
-import userRouter from "./routes/user.routes.js";
+import userRouter from "./routes/user.routes.js"; 
 //api routes (it allows us to structure our api routes in different files)
-app.use("/api/v1/users", userRouter);
+app.use("/api/v1/users", userRouter); 
